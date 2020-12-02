@@ -12,6 +12,7 @@ header {
 
 h1 {
     color: black;
+    font-family: fantasy;
     font-size: 28px;
     margin: 0;
     padding: 10px;
@@ -19,22 +20,50 @@ h1 {
 }
 
 h2 {
+    font-family: fantasy;
     font-size: 24px;
     margin: 0 auto;
     text-align: center;
 }
 
+p {
+    line-height: 250%;
+}
+
+a {
+    color: red;
+}
+
 .centeredImg {
+    width: 200px;
+    height: 200px;
     display: block;
-    margin: 0 auto;
+    margin: 0.35%;
+    filter: grayscale();
 }
 
 #main-bio {
-    background: cornflowerblue;
+    background: linear-gradient(50deg, green 5%, cornflowerblue 50%);
     border: 1px solid black;
     width: 50vw;
     margin: 0 auto;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
 }
+
+#main-bio, #contact-info, .centeredImg {
+    float: left;
+}
+
+#contact-info {
+    width: 30%;
+    background: linear-gradient(50deg, cornflowerblue 5%, green 50%);
+    border: 1px solid black;
+    margin: auto;
+}
+
+
+
 
 
 
